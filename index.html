@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Viva Translate — Política de Privacidade</title>
+<title>Extensões Viva Stays — Política de Privacidade</title>
 <style>
   body {
     max-width: 680px;
@@ -14,8 +14,10 @@
     background: #fff;
   }
   h1 { font-size: 26px; line-height: 1.2; letter-spacing: -.02em; margin: 0 0 6px; }
-  h2 { font-size: 17px; margin: 32px 0 8px; }
+  h2 { font-size: 21px; line-height: 1.3; margin: 44px 0 4px; padding-top: 24px; border-top: 1px solid #d5ddd9; }
+  h3 { font-size: 17px; margin: 28px 0 8px; }
   .data { color: #5b6b66; font-size: 14px; margin: 0 0 8px; }
+  .indice { margin: 20px 0 0; padding-left: 20px; }
   p { margin: 0 0 12px; }
   a { color: #0b6b52; }
   footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #d5ddd9; font-size: 14px; color: #5b6b66; }
@@ -23,15 +25,25 @@
 </head>
 <body>
 
-<h1>Viva Translate — Política de Privacidade</h1>
-<p class="data">Atualizada em 30 de setembro de 2026</p>
+<h1>Extensões Viva Stays — Política de Privacidade</h1>
+<p class="data">Atualizada em 1º de outubro de 2026</p>
+<p>Esta página descreve como as extensões de navegador de uso interno da
+Viva Stays tratam dados. Cada extensão tem sua própria seção.</p>
+<ul class="indice">
+  <li><a href="#viva-translate">Viva Translate</a></li>
+  <li><a href="#viva-stays-nota">Viva Stays — Nota de Atendimento</a></li>
+</ul>
 
-<h2>Quem somos</h2>
+<!-- ============ Viva Translate ============ -->
+
+<h2 id="viva-translate">Viva Translate</h2>
+
+<h3>O que é</h3>
 <p>A Viva Translate é uma extensão de uso interno da Viva Stays, distribuída
 apenas para funcionários da empresa. Não é destinada ao público geral e não
 funciona sem uma conta corporativa ativa.</p>
 
-<h2>O que a extensão acessa</h2>
+<h3>O que a extensão acessa</h3>
 <p>A extensão é executada somente nas páginas de atendimento do Freshchat
 usadas pela Viva Stays. Nessas páginas, ela acessa o texto das mensagens de
 atendimento e os arquivos de áudio enviados na conversa, quando o atendente
@@ -42,12 +54,12 @@ Freshchat, para confirmar que se trata de um atendente ativo da empresa.</p>
 histórico, senhas ou dados de formulário, e não é executada em nenhum outro
 site.</p>
 
-<h2>Para onde os dados vão</h2>
+<h3>Para onde os dados vão</h3>
 <p>O texto ou o áudio selecionado é enviado ao servidor da Viva Stays, que o
 encaminha a provedores de tradução e transcrição contratados pela empresa
 para produzir o resultado. O conteúdo não é enviado a nenhum outro destino.</p>
 
-<h2>O que é armazenado</h2>
+<h3>O que é armazenado</h3>
 <p>O conteúdo das mensagens e dos áudios não é gravado em banco de dados.
 Traduções recentes ficam em memória temporária do servidor por algumas horas,
 apenas para evitar repetir a mesma chamada, e são descartadas a cada
@@ -58,11 +70,49 @@ controle de uso e custo e não contêm o texto das mensagens.</p>
 <p>No navegador, a extensão guarda apenas as preferências de idioma do
 atendente, no armazenamento local do Chrome.</p>
 
-<h2>Compartilhamento</h2>
+<h3>Compartilhamento</h3>
 <p>Os dados não são vendidos, cedidos nem usados para publicidade,
 perfilamento ou treinamento de modelos. O acesso aos provedores de tradução e
 transcrição ocorre exclusivamente para executar a função pedida pelo
 atendente, sob contrato da Viva Stays.</p>
+
+<!-- ============ Viva Stays — Nota de Atendimento ============ -->
+
+<h2 id="viva-stays-nota">Viva Stays — Nota de Atendimento</h2>
+
+<h3>O que é</h3>
+<p>A Viva Stays — Nota de Atendimento é uma extensão de uso interno da Viva
+Stays, distribuída apenas para funcionários da empresa com conta corporativa.
+Não é destinada ao público geral.</p>
+
+<h3>O que a extensão acessa</h3>
+<p>A extensão é executada somente nas páginas do sistema de reservas Stays
+usado pela Viva Stays (<code>roomin.stays.net</code>). Quando o funcionário
+clica no botão da extensão, ela lê da reserva aberta na tela: o código da
+reserva, o código do canal de venda, o nome do hóspede, a acomodação e as
+datas de check-in e checkout.</p>
+<p>Com esses dados, a extensão monta uma nota de texto e a copia para a área
+de transferência do computador, para que o funcionário a cole no
+atendimento.</p>
+<p>A extensão não lê nenhuma outra aba, não acompanha navegação, não acessa
+histórico, senhas ou dados de formulário, e não é executada em nenhum outro
+site.</p>
+
+<h3>Para onde os dados vão</h3>
+<p>Nenhum dado é enviado a servidores, da Viva Stays ou de terceiros. Todo o
+processamento acontece no navegador do funcionário, apenas no momento do
+uso.</p>
+
+<h3>O que é armazenado</h3>
+<p>Nada. A extensão não grava dados no navegador nem em qualquer outro lugar.
+A nota existe apenas na área de transferência do computador, até ser
+substituída por outro conteúdo copiado.</p>
+
+<h3>Compartilhamento</h3>
+<p>Os dados não são vendidos, cedidos, compartilhados com terceiros nem
+usados para publicidade, perfilamento ou treinamento de modelos.</p>
+
+<!-- ============ Comum ============ -->
 
 <h2>Contato</h2>
 <p>Dúvidas ou pedidos relacionados a esta política:
